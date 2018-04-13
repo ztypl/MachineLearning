@@ -1,0 +1,78 @@
+digraph Tree {
+	graph [bb="0,0,586.31,520"];
+	node [label="\N",
+		shape=box
+	];
+	0	 [height=1.0833,
+		label="petal length (cm) <= 2.35\nentropy = 1.581\nsamples = 112\nvalue = [37, 34, 41]\nclass = virginica",
+		pos="215.04,481",
+		width=2.2072];
+	1	 [height=0.88889,
+		label="entropy = 0.0\nsamples = 37\nvalue = [37, 0, 0]\nclass = setosa",
+		pos="138.04,367",
+		width=1.563];
+	0 -> 1	 [head_lp="154.81,423.59",
+		headlabel=True,
+		labelangle=45,
+		labeldistance=2.5,
+		pos="e,159.36,399.01 188.76,441.77 181.12,430.66 172.77,418.51 165.09,407.33"];
+	2	 [height=1.0833,
+		label="petal length (cm) <= 4.95\nentropy = 0.994\nsamples = 75\nvalue = [0, 34, 41]\nclass = virginica",
+		pos="292.04,367",
+		width=2.2072];
+	0 -> 2	 [head_lp="270.43,430.64",
+		headlabel=False,
+		labelangle=-45,
+		labeldistance=2.5,
+		pos="e,265.88,406.06 241.33,441.77 247.4,432.94 253.92,423.45 260.2,414.32"];
+	3	 [height=1.0833,
+		label="petal width (cm) <= 1.65\nentropy = 0.414\nsamples = 36\nvalue = [0, 33, 3]\nclass = versicolor",
+		pos="205.04,253",
+		width=2.1641];
+	2 -> 3	 [pos="e,234.61,292.06 262.35,327.77 255.42,318.85 247.97,309.26 240.81,300.04"];
+	8	 [height=1.0833,
+		label="petal length (cm) <= 5.05\nentropy = 0.172\nsamples = 39\nvalue = [0, 1, 38]\nclass = virginica",
+		pos="380.04,253",
+		width=2.2072];
+	2 -> 8	 [pos="e,350.14,292.06 322.08,327.77 329.09,318.85 336.63,309.26 343.87,300.04"];
+	4	 [height=0.88889,
+		label="entropy = 0.0\nsamples = 32\nvalue = [0, 32, 0]\nclass = versicolor",
+		pos="57.044,139",
+		width=1.5846];
+	3 -> 4	 [pos="e,98.022,171.01 154.53,213.77 138.84,201.9 121.58,188.84 106,177.05"];
+	5	 [height=1.0833,
+		label="sepal width (cm) <= 3.1\nentropy = 0.811\nsamples = 4\nvalue = [0, 1, 3]\nclass = virginica",
+		pos="207.04,139",
+		width=2.0885];
+	3 -> 5	 [pos="e,206.36,178.06 205.73,213.77 205.87,205.57 206.03,196.8 206.18,188.28"];
+	6	 [height=0.88889,
+		label="entropy = 0.0\nsamples = 3\nvalue = [0, 0, 3]\nclass = virginica",
+		pos="89.044,32",
+		width=1.4948];
+	5 -> 6	 [pos="e,124.01,64.117 164.11,99.796 153.5,90.359 142.15,80.255 131.56,70.836"];
+	7	 [height=0.88889,
+		label="entropy = 0.0\nsamples = 1\nvalue = [0, 1, 0]\nclass = versicolor",
+		pos="218.04,32",
+		width=1.5846];
+	5 -> 7	 [pos="e,214.78,64.117 211.05,99.796 211.92,91.458 212.85,82.6 213.73,74.153"];
+	9	 [height=1.0833,
+		label="sepal length (cm) <= 6.5\nentropy = 0.811\nsamples = 4\nvalue = [0, 1, 3]\nclass = virginica",
+		pos="379.04,139",
+		width=2.1316];
+	8 -> 9	 [pos="e,379.38,178.06 379.7,213.77 379.63,205.57 379.55,196.8 379.48,188.28"];
+	12	 [height=0.88889,
+		label="entropy = 0.0\nsamples = 35\nvalue = [0, 0, 35]\nclass = virginica",
+		pos="530.04,139",
+		width=1.563];
+	8 -> 12	 [pos="e,488.51,171.01 431.25,213.77 447.15,201.9 464.64,188.84 480.43,177.05"];
+	10	 [height=0.88889,
+		label="entropy = 0.0\nsamples = 3\nvalue = [0, 0, 3]\nclass = virginica",
+		pos="368.04,32",
+		width=1.4948];
+	9 -> 10	 [pos="e,371.3,64.117 375.04,99.796 374.17,91.458 373.24,82.6 372.36,74.153"];
+	11	 [height=0.88889,
+		label="entropy = 0.0\nsamples = 1\nvalue = [0, 1, 0]\nclass = versicolor",
+		pos="497.04,32",
+		width=1.5846];
+	9 -> 11	 [pos="e,462.07,64.117 421.98,99.796 432.58,90.359 443.94,80.255 454.52,70.836"];
+}
